@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class MatrixMulti {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {		//Main function
 		Scanner scan = new Scanner(System.in);
 		int w,x,y,z;
 		System.out.println("Enter the number of rows in first matrix : ");
