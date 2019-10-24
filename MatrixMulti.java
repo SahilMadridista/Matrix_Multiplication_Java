@@ -3,9 +3,9 @@ public class MatrixMulti {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		int w,x,y,z;
+		int q,x,y,z;
 		System.out.println("Enter the number of rows in first matrix : ");
-		w=scan.nextInt();
+		q=scan.nextInt();
 		System.out.println("Enter the number of column in first matrix : ");
 		x=scan.nextInt();
 		System.out.println("Enter the number of rows in second matrix : ");
@@ -15,12 +15,12 @@ public class MatrixMulti {
 		
 		if(x==y)
 		{
-			int[][]a=new int[w][x];
+			int[][]a=new int[q][x];
 			int[][]b=new int[y][z];
-			int[][]c=new int[w][z];
+			int[][]c=new int[q][z];
 			
 			System.out.println("Enter the first matrix row wise : ");
-			for(int i=0;i<w;i++)
+			for(int i=0;i<q;i++)
 			{
 				for(int j=0;j<x;j++)
 				{
@@ -43,7 +43,7 @@ public class MatrixMulti {
 			
 			
 			
-			for(int i=0;i<w;i++)
+			for(int i=0;i<q;i++)
 			{
 				for(int j=0;j<z;j++)
 				{
@@ -57,7 +57,7 @@ public class MatrixMulti {
 			System.out.println("The product matrix is : ");
 			
 			
-			for(int i=0;i<w;i++)
+			for(int i=0;i<q;i++)
 			{
 				for(int j=0;j<z;j++)
 				{
